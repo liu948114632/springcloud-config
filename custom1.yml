@@ -1,0 +1,18 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: custom1     # 指定发布的微服务名（以后调用时，只需该名称即可访问该服务）
+  datasource:
+    data-password: dbadmin
+    data-username: root
+    url: jdbc:mysql://192.168.0.118/zcfunding?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false
+eureka:
+#  instance:
+#    lease-renewal-interval-in-seconds: 5          # 心跳时间，即服务续约间隔时间（缺省为30s）
+#    lease-expiration-duration-in-seconds: 15      # 发呆时间，即服务续约到期时间（缺省为90s）
+  client:
+#    healthcheck:
+#        enabled: true   # 开启健康检查（依赖spring-boot-starter-actuator）
+    serviceUrl:
+        defaultZone: http://localhost:8000/eureka/       #注册中心地址
