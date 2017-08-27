@@ -7,7 +7,7 @@ spring:
     data-password: dbadmin
     data-username: root
     #url: jdbc:mysql://192.168.0.118/zcfunding?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false
-    url: jdbc:mysql://localhost/zcfunding?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false
+    url: jdbc:mysql://localhost/liu?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false
 eureka:
 #  instance:
 #    lease-renewal-interval-in-seconds: 5          # 心跳时间，即服务续约间隔时间（缺省为30s）
