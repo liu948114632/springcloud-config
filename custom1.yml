@@ -17,3 +17,4 @@ eureka:
 #        enabled: true   # 开启健康检查（依赖spring-boot-starter-actuator）
     serviceUrl:
         defaultZone: http://localhost:8000/eureka/       #注册中心地址
+name: liu123
