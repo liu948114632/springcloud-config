@@ -1,5 +1,3 @@
-server:
-  port: 8001
 spring:
   application:
     name: custom1     # 指定发布的微服务名（以后调用时，只需该名称即可访问该服务）
