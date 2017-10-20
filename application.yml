@@ -18,8 +18,8 @@ eureka:
 #               eviction-interval-timer-in-ms: 4000  中的配置 配合使用，单独使用会报错
     serviceUrl:
         defaultZone: http://localhost:8000/eureka/       #注册中心地址
-logging：
-  level：
-    project：
-      user：
+logging:
+   level:
+    project:
+      user:
         UserClient: DEBUG
